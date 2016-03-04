@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.spiderman">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".SpiderManApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/img_marvel_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="br.com.spiderman.view.activity.ComicListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.spiderman.view.activity.ComicDetailActivity"
+            android:label="@string/title_activity_comic_detail"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="br.com.spiderman.view.activity.ComicImageActivity"
+            android:label="@string/title_activity_comic_image"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="br.com.spiderman.view.activity.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

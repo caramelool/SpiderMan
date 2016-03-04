@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mavel - SpiderMan</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_profile">Profile</string>
+    <string name="comic_list_empty">404 - comics not found</string>
+    <string name="transition_name_comic">transitionNameComic</string>
+    <string name="published">Published:</string>
+    <string name="price">Price:</string>
+    <string name="pages">Pages:</string>
+    <string name="copyright">Data provided by Marvel. © 2014  Marvel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_comic_detail">ComicDetailActivity</string>
+    <string name="title_activity_comic_image">ComicImageActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+</resources>
